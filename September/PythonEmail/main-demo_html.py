@@ -6,7 +6,7 @@ from email.message import EmailMessage
 
 EMAIL_ADDRESS = 'LuisMRomanTest77@gmail.com'
 #following is password gotten from acocunt apppasswords, found in google account in security,just past in ''
-EMAIL_PASSWORD = 'eqvkugetcuottgud'
+EMAIL_PASSWORD = ''
 
 contacts = ['LuisMRomanTest77@gmail.com']
 
