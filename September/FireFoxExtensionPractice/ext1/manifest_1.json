@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Border",
+    "version": "1.0",
+
+    "description": "Adds a red border to all webpages matching twitch.tv/clintstevens",
+
+    "icons": {
+      "48": "icons/border-48png"
+    },
+
+    "content_scripts": [
+      {
+        "matches": ["*://*.twitch.tv/clintstevens"],
+        "js": ["app_1.js"]
+      }
+    ]
+
+  }
